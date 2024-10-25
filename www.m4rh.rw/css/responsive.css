@@ -1,0 +1,101 @@
+@media(max-width:1024px){
+	.secondLine{
+		clear:left;
+		margin-left:300px!important;
+	}
+	.navbar-nav {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+	
+	.navbar-toggle{
+		border:none;
+	}
+	
+	.navbar-inverse .navbar-toggle .icon-bar{
+		background-color:#00ac52;
+		display: block;
+		width: 40px;
+		height: 5px;
+		border-radius: 1px;
+		margin-bottom: 5px;
+	}
+	.navbar-toggle{
+		margin-top:20px;
+	}
+	
+	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+		background:none;
+	}
+	
+	.navbar-collapse.collapse.in {
+		display: block!important;
+	}
+	
+	.secondLine{
+		clear:none;
+		margin-left:15px!important;
+		margin-bottom:10px;
+	}
+	.navbar-collapse{margin-bottom:10px;}
+	.needCol{margin-left:15px!important;margin-bottom:10px;}
+	.navbar-nav {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.navbar-inverse .navbar-nav > li{margin-right:15px;}
+	
+	.imgDIV img{max-width:none;width:90%;}
+	.welcomeSec .imgDIV:after{width:90%;}
+	.welcomeSec .rightBx{padding-left:0px;}
+	.scrollTop{right:15px;}
+}
+
+@media (max-width: 420px) {
+	.carousel-caption{
+		top:auto;
+		bottom:0px;
+	}
+	.carousel-indicators{width:auto;left:auto;right:15px;}
+	.carousel-inner .item .container{left:0px!important;}
+	.scrollTop {
+		right: 15px;
+		bottom: -25px;
+		top: auto;
+	}
+	.sitemap li{margin-bottom:15px;}
+	.joinBx{margin-bottom:40px;}
+	.joinBx a p{
+		margin-top: 20px;
+	}
+	.helpSec h2{text-align:center;}
+	.helpSec a.readmoreBtn{float:none;margin-top:20px;}
+	.navbar-inverse{background-color: rgba(255,255,255,0.9);}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{border:none;}
+}
